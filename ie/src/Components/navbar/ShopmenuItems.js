@@ -1,4 +1,4 @@
-export const MenuItems = [
+export const ShopMenuItems = [
     {
         title: 'Marketing',
         path: '/marketing',

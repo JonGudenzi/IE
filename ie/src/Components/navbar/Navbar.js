@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './Dropdown';
-import IELogo from './img/IELogo.png';
+import IELogo from '../img/IELogo.png';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -49,7 +49,7 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/services'
+              to='/shop'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -59,7 +59,7 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/locations'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -77,7 +77,7 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='/shopping-cart'
+              to='/user-account'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -95,7 +95,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-        
+
         {/* <Button /> */}
       </nav>
     </>
