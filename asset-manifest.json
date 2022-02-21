@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/IE/static/css/main.202afe7d.css",
+    "main.js": "/IE/static/js/main.1d314f76.js",
+    "static/media/IELogo.png": "/IE/static/media/IELogo.57165fdba26afff354bf.png",
+    "index.html": "/IE/index.html",
+    "main.202afe7d.css.map": "/IE/static/css/main.202afe7d.css.map",
+    "main.1d314f76.js.map": "/IE/static/js/main.1d314f76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.202afe7d.css",
+    "static/js/main.1d314f76.js"
+  ]
+}
