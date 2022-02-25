@@ -1,10 +1,10 @@
 import React from "react";
 import Cards from '../../../cards/Cards';
 
-export default function Apparel() {
+export default function Detox() {
     return (
         <>
-        <h1 className="apparel">Apparel</h1>
+        <h1 className="detox">Detox</h1>
         <Cards />
         </>
     )
