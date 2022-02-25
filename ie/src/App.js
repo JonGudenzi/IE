@@ -6,6 +6,7 @@ import Home from "../src/Components/Pages/Informational/Home";
 import ContactUs from "../src/Components/Pages/Informational/ContactUs";
 import Locations from "../src/Components/Pages/Informational/Locations";
 import Shop from "../src/Components/Pages/Shop/ShopAll";
+import Apparel from "../src/Components/Pages/Shop/apparel/Apparel";
 
 function App() {
   return (
@@ -13,10 +14,12 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/'  element={<Home />} />
-        <Route path='/contact-us'  element={<ContactUs />} />
-        <Route path='/locations'  element={<Locations />} />
-        <Route path='/shop'  element={<Shop />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/contact-us' element={<ContactUs />} />
+        <Route path='/locations' element={<Locations />} />
+        <Route path='/shop' element={<Shop />} />
+        <Route path='/apparel' element={<Apparel />} />
+        
       </Routes>
     </Router>
     
