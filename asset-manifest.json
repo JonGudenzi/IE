@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/IE/static/css/main.2cb4e56a.css",
-    "main.js": "/IE/static/js/main.3c82ba09.js",
+    "main.css": "/IE/static/css/main.087b71ae.css",
+    "main.js": "/IE/static/js/main.60c8a664.js",
     "static/media/IELogo.png": "/IE/static/media/IELogo.57165fdba26afff354bf.png",
+    "static/media/RawHat.jpg": "/IE/static/media/RawHat.153fa8b5abdd0cef66f4.jpg",
     "index.html": "/IE/index.html",
-    "main.2cb4e56a.css.map": "/IE/static/css/main.2cb4e56a.css.map",
-    "main.3c82ba09.js.map": "/IE/static/js/main.3c82ba09.js.map"
+    "main.087b71ae.css.map": "/IE/static/css/main.087b71ae.css.map",
+    "main.60c8a664.js.map": "/IE/static/js/main.60c8a664.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cb4e56a.css",
-    "static/js/main.3c82ba09.js"
+    "static/css/main.087b71ae.css",
+    "static/js/main.60c8a664.js"
   ]
 }
