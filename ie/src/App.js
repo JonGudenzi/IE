@@ -16,6 +16,7 @@ import Sale from "./Components/Pages/Shop/sale/Sale";
 import SmokeShop from "./Components/Pages/Shop/smokeShop/SmokeShop";
 import Spiritual from "./Components/Pages/Shop/spiritual/Spiritual";
 
+
 function App() {
   return (
     
@@ -34,6 +35,7 @@ function App() {
         <Route path='/sale' element={<Sale />} />
         <Route path='/smokeShop' element={<SmokeShop />} />
         <Route path='/spiritual' element={<Spiritual />} />
+        
         
       </Routes>
     </Router>

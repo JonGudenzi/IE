@@ -49,7 +49,7 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/shop'
+              to='/shop-all'
               className='nav-links'
               onClick={closeMobileMenu}
             >

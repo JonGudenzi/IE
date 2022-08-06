@@ -1,13 +1,11 @@
 import React from "react";
 import Cards from '../../../cards/Cards';
 
-const Sale = () => {
+export default function ShopAll() {
     return (
         <>
-        <h1 className="sale">Sale</h1>
+        <h1 className="sale">Shop All</h1>
         <Cards />
         </>
     )
 };
-
-export default Sale;
